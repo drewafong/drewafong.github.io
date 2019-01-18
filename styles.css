@@ -1,0 +1,6 @@
+<!-- Simply selecting h1(header) and applying rules
+-->
+h1 {
+   color:red; 
+   font-size: 90px;
+}
