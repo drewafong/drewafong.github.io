@@ -3,9 +3,12 @@ change needs to be made on the website to figure out specific class change needs
 */
 
 h1{
-    color: red;
+    color:#f9f0c07a;
 }
 .navbar-dark.navbar-brand{
     color:red;
 }
-    
+body{
+    font-family:Helvetica; 
+}
+   
