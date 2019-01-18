@@ -1,6 +1,48 @@
-<!-- Simply selecting h1(header) and applying rules
--->
+/* Simply selecting h1(header) and applying rules
 h1 {
-   color:red; 
-   font-size: 90px;
+   color: #00a9ff; 
+   font-size: 40px;
+}
+*/
+/* Rules below applied to the designated paragraph; 
+specific tags have higher level than generic paragraph tags;
+the last written/read rule has higher level than the same rule before it
+p {
+    color:green;
+}
+#first {
+    color:purple;
+}
+#third {
+    color:orange;
+}
+*/
+/* Takes all the imgs or certain tags on the page and makes them a certain size
+img {
+    width:100px;
+}
+#header {
+    width:100px;
+}
+*/
+/* Takes all the tacos class makes them a certain color
+.tacos {
+    color:orange;
+}
+*/
+/* Takes all the paragraph tags (e.g., excludes headers) with tacos pizza class makes them a certain color
+p.tacos.pizza{
+    color:yellow;
+}
+*/
+h1 {
+    background-color:#f9f0c07a;
+    font-size: 300px;
+    font-family:Helvetica;
+    color:#494952;
+}
+body {
+    background-color:#f9f0c07a;
+    font-family:Helvetica;
+    color:#494952;
 }

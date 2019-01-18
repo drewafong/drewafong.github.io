@@ -5,28 +5,48 @@ Things in the head do not show up on the webpage
 Shows up in Web Browser as the Title
 Website address: https://drewafong.github.io/index.html
 -->
-<head>
-    <title>Drew's Website</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+<!--Below links formatting in index.html to the css file-->
+<link rel="stylesheet" href="styles.css">
+<center>
+<h1>
+    <img id="header" src="SF-Header.jpg">
+    <strong>Providence Partners</strong>
+ 
+    
+</h1>
+</center>
 
 <body>
-    <h1><strong>Useful Websites!</strong></h1>
-    <p>
+
+<!--
+Below the paragraph IDs can be any word, but should just be lowercase; there is really no reason to use ids
+-->
+    <p id="first">
         PARAGRAPH
     </p>
-    <p>
-        <img src="download.jpeg">
+    <p id="second">
+        <!--
+Added tag to image
+-->
+        <img id="beach" src="download.jpeg">
     </p>
-    <p>
+    <!-- Can create multiple same classes, but only one id; classes can also be made of two words; you should use classes vs. ids
+-->
+    <p class="tacos">TACOS!</p>
+    <p class="tacos">TACOS!!!</p>
+    <p class="tacos">TACOS!!!!!</p>
+    <p class="tacos pizza">TACOS PIZZA!</p>
+    <p class="tacos pizza">TACOS PIZZA TACOS!</p>
+
+    <p id="third">
             <a href="http://google.com"><img src="download.jpeg"></a>
     
     </p>
-    <p>
+    <p id="fourth">
         <a href="about.html">About Me</a>
     </p>
 
-    <p>
+    <p id="fifth">
     <span>Introduction to Software Development</span>
     </p>
 
