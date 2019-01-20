@@ -3,12 +3,17 @@ change needs to be made on the website to figure out specific class change needs
 */
 
 h1{
-    color:#f9f0c07a;
+    color:black;
 }
-.navbar-dark.navbar-brand{
-    color:red;
+.navbar{
+    font-family:helvetica;
+}
+.jumbotron{
+    background-image: url("SF-background.jpg");
+    background-size: cover;
 }
 body{
-    font-family:Helvetica; 
+    font-family:helvetica;
+    background-image: "SF-background.jpg";
 }
    
