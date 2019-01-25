@@ -14,6 +14,20 @@ h1{
     background-size: cover;
     background-position: center;
 }
+.jumbotron-about{
+    background-image: url("sfabout.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.jumbotron-row{
+    color: white;
+}
+
 body{
     font-family:helvetica;
 }
@@ -21,8 +35,5 @@ body{
     font-family:helvetica;
     font-size: 12px;
 }
-.container-fluid.col-sm-3{
-    width: 50%;
-    height: 50%;
-}
+
 
