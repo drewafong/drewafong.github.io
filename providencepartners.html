@@ -13,81 +13,57 @@ https://getbootstrap.com/docs/4.2/components/buttons/
     Always have our own styles below bootstraps style so we can override bootstrap style
 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles2.css"
+    <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
 
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="providencepartners.html" id="logo"> <img src="providence.jpg" width="100" height="100"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
 
-<!--Copy and pasted navbar
-    Navbar does not have to be in the container - it will go edge to edge
-    Anything put in the container will have white space on the sides
--->
-<!--<li class="nav-item active">
-<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-</li>
-<li class="nav-item dropdown">
-<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-Dropdown
-</a>
-<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-<a class="dropdown-item" href="#">Action</a>
-<a class="dropdown-item" href="#">Another action</a>
-<div class="dropdown-divider"></div>
-<a class="dropdown-item" href="#">Something else here</a>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">Team</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="pastwork.html">Past Work</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
 </div>
-</li>
-
-<li class="nav-item">
-<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-</li>
-
-<form class="form-inline my-2 my-lg-0">
-<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-</form>
--->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                <a class="navbar-brand" href="providencepartners.html" id="logo"> <img src="providence.jpg" width="100" height="100"> </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    
-                    <li class="nav-item">
-                      <a class="nav-link" href="about.html">About Us</a>
-                    </li>
-
-                    <li class="nav-item">
-                      <a class="nav-link" href="team.html">Team</a>
-                    </li>
-
-                    <li class="nav-item">
-                      <a class="nav-link" href="pastwork.html">Past Work</a>
-                    </li>
-
-                  </ul>
-                </div>
-              </nav>
 
 <!--Copy and pasted jumbotron
     Jumbotron does not have to be in the container - it will go edge to edge
     Anything put in the container will have white space on the sides
 -->
+<div class="container-fluid">
     <div class="jumbotron">
         <h1 class="display-4"> <strong>Providence Partners</strong></h1>
         <p class="lead">Professionals in finding meaning.</p>
         <hr class="my-4">
         <p><strong>We are here to help you.</strong></p>
-        <a class="btn btn-secondary" href="#" role="button">Learn more</a>
+        <a class="btn btn-secondary" href="about.html" role="button">Learn more</a>
     </div>
+  </div>
 
 <!--Copy and pasted carousel
     Carousel does not have to be in the container - it will go edge to edge
     Anything put in the container will have white space on the sides
     Images in carousel should be the same size or it will look weird
 -->  
+<div class="container-fluid">
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -97,22 +73,24 @@ Dropdown
         <div class="carousel-inner">
 
           <div class="carousel-item active">
-            <img src="aerospace.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-md-block">
+            <img src="aerospace.jpg" class="d-block w-100" alt="Aero">
+            <div class="carousel-caption d-sm-block">
                 <h3><strong>Boeing improves output</strong></h3>
                 <p>Boeing relied on PP's experts to increase its employees' life meaning. It saw a 50% increase in aircraft volume produced over the past year.</p>
           </div>
-
-          <div class="carousel-item">
-            <img src="manufacturing.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-md-block">
-                <h4><strong>Dow Chemical increases employee retention</strong></h4>
-                <p>With PP's expertise, Dow saw employee satisfaction ratings increase and number of promotion expectations significantly decrease compared to the past ten years.</p>
           </div>
 
           <div class="carousel-item">
-            <img src="bio.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-md-block">
+            <img src="manufacturing.jpg" class="d-block w-100" alt="Manu">
+            <div class="carousel-caption d-sm-block">
+                <h4><strong>Dow Chemical increases employee retention</strong></h4>
+                <p>With PP's expertise, Dow saw employee satisfaction ratings increase and number of promotion expectations significantly decrease compared to the past ten years.</p>
+          </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="bio.jpg" class="d-block w-100" alt="Bio">
+            <div class="carousel-caption d-sm-block">
                 <h5><strong>Memorial Sloan Kettering increases available cash flow </strong></h5>
                 <p>PP's campaign improved patient payment compliance, decreasing collection time on accounts receivable by 50%.</p>
           </div>
@@ -127,14 +105,17 @@ Dropdown
           <span class="sr-only">Next</span>
         </a>
       </div>
+  </div>
+</div>
 
-<div class="footer-menu">
+<div class="container-fluid">
+  <div class="footer-menu">
     <a href="about.html" style="font-size:12px;">About Us</a>
     <span class="separator">|</span>
     <a href="team.html" style="font-size:12px;">Team</a>
     <span class="separator">|</span>
     <a href="pastwork.html" style="font-size:12px;">Past Work</a>
-    
+  </div>    
 </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
