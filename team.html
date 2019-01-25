@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,11 +8,12 @@
     Always have our own styles below bootstraps style so we can override bootstrap style
 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles2.css"
+    <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
         <a class="navbar-brand" href="providencepartners.html" id="logo"> <img src="providence.jpg" width="100" height="100"> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,29 +37,30 @@
           </ul>
         </div>
       </nav>
+</div>
 
-      <div class="container">
-            <div class="row">
-                <div class="col-md">
-                    Team
-    
-    
-                    <table class="table table-striped">
-                        <tr>
-                            <th>Awesome Things</th>
-                        </tr>
-                        <tr>
-                            <th>Pizza</th>
-                        </tr>
-                        <tr>
-                            <th>Taco</th>
-                        </tr>
-                    </table>
-    
-                </div>
-             
+      <!-- Shortcut for the below code/expansion:.container-fluid>.row>.col-sm-3*4
+    The columns stack after the window is shrunk-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="blue.png" alt="Blue">
+                <p><center><strong>Blue Thing</strong></center></p>
             </div>
-        </div>
+            <div class="col-sm-3">
+                <img src="yellow.png" alt="Yellow">
+                <p><center><strong>Yellow Thing</strong></center></p>
+            </div>
+            <div class="col-sm-3">
+                <img src="green.png" alt="Green">
+                <p><center><strong>Green Thing</strong></center></p>
+            </div>
+            <div class="col-sm-3">
+                <img src="red.png" alt="Red">
+                <p><center><strong>Red Thing</strong></center></p>
+            </div>
+            </div>
+    </div>   
 
 
 
