@@ -10,7 +10,9 @@ h1{
 }
 .jumbotron{
     background-image: url("SF-background.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 body{
     font-family:helvetica;
@@ -23,5 +25,4 @@ body{
     width: 50%;
     height: 50%;
 }
-
 
